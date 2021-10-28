@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QMainWindow" name="Dialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>766</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>140</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>true</bool>
+    </property>
+    <property name="maxVisibleItems">
+     <number>30</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>天河区</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>白云区</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>越秀区</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>海珠区</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>荔湾区</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>番禺区</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>从化区</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>增城区</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>黄埔区</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>花都区</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>南沙区</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>130</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>请选择区域</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>市短时预报</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>140</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>七天预报</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>75</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>获取</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>140</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>获取</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton3">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>710</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>24小时空气质量</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>广州</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>北京</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>上海</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>成都</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>40</y>
+      <width>761</width>
+      <height>91</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QChartView" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>290</y>
+      <width>761</width>
+      <height>221</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QChartView" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>510</y>
+      <width>761</width>
+      <height>221</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>170</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>10月11日</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>190</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>星期一</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>170</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>10月11日</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>190</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>星期一</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>170</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>10月11日</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>170</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>10月11日</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>170</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>10月11日</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>170</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>10月11日</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>159</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>10月11日</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>190</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>星期一</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>190</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>星期一</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>190</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>星期一</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>190</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>星期一</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>190</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>星期一</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>230</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>230</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>230</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>230</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>230</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>230</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>230</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>-1</y>
+      <width>441</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QWidget</extends>
+   <header location="global">QChartView.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

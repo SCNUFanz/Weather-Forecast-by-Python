@@ -1,0 +1,5 @@
+cd C:\Users\Fanz\Desktop\Dream\BigHomework
+pyuic5 -o ui_Dialog.py Dialog.ui
+
+cd C:\Users\Fanz\Desktop\Dream
+pyinstaller -w myMainWindow.py
